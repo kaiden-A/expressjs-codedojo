@@ -1,0 +1,23 @@
+### Get All Users
+GET http://localhost:5000/api/users
+
+###
+
+### Create New User
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "Kasim",
+  "email": "Kasim@example.com"
+}
+
+###
+
+### Get User by ID
+GET http://localhost:5000/api/users/1
+
+###
+
+### Delete User
+DELETE http://localhost:5000/api/users/1
